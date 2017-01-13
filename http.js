@@ -2,7 +2,7 @@
 
 var request = require('request');
 
-export.get = function (event, context, callback) {
+exports.get = function (event, context, callback) {
 	var URI = 'https://news.google.com/news';
 	
 	request(URI, function (error, response, body) {
