@@ -1,0 +1,26 @@
+{
+  "name": "lambda-http-request",
+  "version": "1.0.0",
+  "description": "aws test for http get request",
+  "main": "http.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ronny-springer/lambda-http-request.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda"
+  ],
+  "author": "Ronny Springer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ronny-springer/lambda-http-request/issues"
+  },
+  "homepage": "https://github.com/ronny-springer/lambda-http-request",
+  "devDependencies": {
+    "request": "^2.79.0"
+  }
+}
